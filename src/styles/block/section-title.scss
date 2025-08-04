@@ -1,0 +1,17 @@
+.section-title {
+  margin-bottom: 48px;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: left;
+
+  @include OnTablet {
+    margin-bottom: 64px;
+    font-size: 40px;
+  }
+
+  @include OnDesktop {
+    font-size: 48px;
+  }
+}

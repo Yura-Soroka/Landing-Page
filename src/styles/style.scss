@@ -1,0 +1,21 @@
+@import './utils/variables';
+@import './utils/mixins';
+
+@import 'block/header';
+@import 'block/icon';
+@import 'block/menu';
+@import 'block/nav';
+@import 'block/page';
+@import 'block/top-bar';
+@import 'block/section-title';
+@import 'block/product';
+@import 'block/main';
+@import 'block/recommended';
+@import 'block/history-of-company';
+@import 'block/categories';
+@import 'block/contact-us';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,55 @@
+.history-of-company {
+  background-color: $background-color-beige;
+
+  &__background {
+    background-image: url(../img/gramophone.png);
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    padding-top: 56.25%;
+
+    @include OnTablet {
+       padding-top: 50%;
+    }
+
+    @include OnDesktop {
+      padding-top: 30%;
+    }
+  }
+
+  &__content {
+    @include pageGrid;
+
+    row-gap: 24px;
+    padding-block: 48px;
+
+    @include OnTablet {
+      padding-block: 120px;
+    }
+  }
+
+  &__title {
+    grid-column: 1 / -1;
+
+    @include OnTablet {
+      grid-column: 1 / 4;
+    }
+
+    @include OnDesktop {
+      grid-column: 1 / 7;
+    }
+  }
+
+  &__description {
+    line-height: 140%;
+    grid-column: 1 / -1;
+
+    @include OnTablet {
+      grid-column: 4 / 7;
+    }
+
+    @include OnDesktop {
+      grid-column: 8 / 13;
+    }
+  }
+}
