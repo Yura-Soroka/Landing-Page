@@ -15,8 +15,8 @@ A responsive landing page built based on a Figma design. The page features a mod
 To run the project locally, follow these steps:
 
 ### 1. Clone the repository:
-git clone https://github.com/Yura-Soroka/Landing-Page.git
-cd Landing-Page
+- git clone https://github.com/Yura-Soroka/Landing-Page.git
+- cd Landing-Page
 
 ### 2. Install dependencies:
 npm install
